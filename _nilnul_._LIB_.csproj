@@ -635,13 +635,13 @@
 			PostBuildMacros;
 		</PostBuildEventDependsOn>
     <PostBuildEvent>
-		if $(ConfigurationName) == Release111 (
+		if $(ConfigurationName) == Release (
 			if NOT "$(SolutionDir)" == "$(MSBuildProjectDirectory)\" (
 			rem xcopy /Y /E /D /I "$(SolutionDir)\packages\*.*" "$(MSBuildProjectDirectory)\packages\"
 			)
 			"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt
-			"NuGet.exe" push $(TargetName).@(VersionNumber).nupkg -Source local 
-			"NuGet.exe" push $(TargetName).@(VersionNumber).nupkg -Source my
+			rem "NuGet.exe" push $(TargetName).@(VersionNumber).nupkg -Source local 
+			rem "NuGet.exe" push $(TargetName).@(VersionNumber).nupkg -Source my
 		) ELSE (
 			if $(ConfigurationName) == Symbols4Debug (
 			if NOT "$(SolutionDir)" == "$(MSBuildProjectDirectory)\" (
@@ -662,6 +662,9 @@
 			rem forfiles /P $(ProjectDir)bin\$(ConfigurationName)\ /m *.nupkg /c "cmd /c "NuGet.exe" push @FILE -Source local"
 			
 		</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>nuget update "$(ProjectPath)"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
