@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="nilnul.op.UnaOp&lt;P, R&gt;" Collapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>unary\UnaOp(P,R).cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="nilnul.op.ClosedUnaOpI&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="6" Width="1.75" />
+    <InheritanceLine Type="nilnul.op.UnaOpI&lt;P, R&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="4.5" />
+        <Point X="6.5" Y="5.625" />
+        <Point X="6.312" Y="5.625" />
+        <Point X="6.312" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\ClosedUnaOpI(T).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpI&lt;P, R&gt;" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\UnaOpI(P,R).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpI_R&lt;R&gt;" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\UnaOpI(R).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpI" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\UnaOpI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpI_P&lt;P&gt;" Collapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\UnaOpI_P(P).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
