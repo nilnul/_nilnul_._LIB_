@@ -664,7 +664,7 @@
 		</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>nuget update "$(ProjectPath)"</PreBuildEvent>
+    <PreBuildEvent>rem nuget update "$(ProjectPath)"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
