@@ -620,6 +620,12 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_LINQ_%28Git\_nilnul_._LINQ_.csproj">
+      <Project>{442cbe25-6f12-44a1-8958-90e14f80f2d4}</Project>
+      <Name>_nilnul_._LINQ_</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="PostBuildMacros">
     <GetAssemblyIdentity AssemblyFiles="$(TargetPath)">
