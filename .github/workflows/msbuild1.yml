@@ -30,8 +30,15 @@ jobs:
 
     - name: Restore NuGet packages
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: nuget update ${{env.PROJECT_FILE_PATH}}
+      run: nuget restore
       #run: nuget restore ${{env.SOLUTION_FILE_PATH}}
+
+    - name: UpdateNuGet packages after restore
+      working-directory: ${{env.GITHUB_WORKSPACE}}
+      #run: nuget update ${{env.PROJECT_FILE_PATH}}
+      run: nuget update packages.config
+     
+
      
 
     - name: Build
