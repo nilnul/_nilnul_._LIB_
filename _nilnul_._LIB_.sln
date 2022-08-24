@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_nilnul_._LIB_", "_nilnul_._LIB_.csproj", "{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_nilnul_._LINQ_", "..\_LINQ_(Git\_nilnul_._LINQ_.csproj", "{442CBE25-6F12-44A1-8958-90E14F80F2D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{426AE4FB-1CDE-4911-A056-995F2DA5B449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		_Temp|Any CPU = _Temp|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Hbue40|Any CPU = Hbue40|Any CPU
+		Nuget|Any CPU = Nuget|Any CPU
+		PreferChinese|Any CPU = PreferChinese|Any CPU
+		Release_PreferChinese|Any CPU = Release_PreferChinese|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Symbols4Debug|Any CPU = Symbols4Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}._Temp|Any CPU.ActiveCfg = _Temp|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}._Temp|Any CPU.Build.0 = _Temp|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Hbue40|Any CPU.ActiveCfg = Hbue40|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Hbue40|Any CPU.Build.0 = Hbue40|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Nuget|Any CPU.ActiveCfg = Nuget|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Nuget|Any CPU.Build.0 = Nuget|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.PreferChinese|Any CPU.ActiveCfg = PreferChinese|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.PreferChinese|Any CPU.Build.0 = PreferChinese|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Release_PreferChinese|Any CPU.ActiveCfg = Release_PreferChinese|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Release_PreferChinese|Any CPU.Build.0 = Release_PreferChinese|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Symbols4Debug|Any CPU.ActiveCfg = Symbols4Debug|Any CPU
+		{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}.Symbols4Debug|Any CPU.Build.0 = Symbols4Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}._Temp|Any CPU.ActiveCfg = Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}._Temp|Any CPU.Build.0 = Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Hbue40|Any CPU.ActiveCfg = Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Hbue40|Any CPU.Build.0 = Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Nuget|Any CPU.ActiveCfg = Nuget|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Nuget|Any CPU.Build.0 = Nuget|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.PreferChinese|Any CPU.ActiveCfg = Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.PreferChinese|Any CPU.Build.0 = Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Release_PreferChinese|Any CPU.ActiveCfg = Release|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Release_PreferChinese|Any CPU.Build.0 = Release|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Symbols4Debug|Any CPU.ActiveCfg = Symbols4Debug|Any CPU
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4}.Symbols4Debug|Any CPU.Build.0 = Symbols4Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{442CBE25-6F12-44A1-8958-90E14F80F2D4} = {426AE4FB-1CDE-4911-A056-995F2DA5B449}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFD26AF1-E129-4622-A512-493912A15488}
+	EndGlobalSection
+EndGlobal

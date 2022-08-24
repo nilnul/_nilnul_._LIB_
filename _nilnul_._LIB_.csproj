@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE93BE80-743C-4AA7-AE6D-B94EF6FFF4E6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul</RootNamespace>
+    <AssemblyName>_nilnul_._LIB_</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '_Temp|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\_Temp\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PreferChinese|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\PreferChinese\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_PreferChinese|AnyCPU'">
+    <OutputPath>bin\Release_PreferChinese\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Hbue40|AnyCPU'">
+    <OutputPath>bin\Hbue40\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Symbols4Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Symbols4Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Symbol|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Symbol\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Symbol|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Symbol\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Symbol|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Symbol\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Symbol|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Symbol\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Symbol|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Symbol\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>t.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Nuget|AnyCPU'">
+    <OutputPath>bin\Nuget\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="%28attr_\UseClassOrStuctAttribute.cs" />
+    <Compile Include="%28attr_\RefactorNeededAttribute.cs" />
+    <Compile Include="%28attr_\ReturnNull.cs" />
+    <Compile Include="%28attr_\Nominal.cs" />
+    <Compile Include="%28attr_\WronglyImplemented.cs" />
+    <Compile Include="%28attr_\InWorkingAttribute.cs" />
+    <Compile Include="%28be%29\nilnul\be\En.cs" />
+    <Compile Include="%28call\nilnul._call\Call_ArgA%28TArg.cs" />
+    <Compile Include="%28call\nilnul._call\Call_ArgArg1A%28TArg,TArg1.cs" />
+    <Compile Include="%28call\nilnul._call\Call_ArgArg1Arg2A%28TArg,TArg1,TArg2.cs" />
+    <Compile Include="%28call\nilnul._call\Call_OpA%28TOp.cs" />
+    <Compile Include="%28call\nilnul._call\Call_OpAA1A%28TOp,TArg,TArg1.cs" />
+    <Compile Include="%28call\nilnul._call\Call_OpAA1A2A%28TOp,TArg,TArg1,TA2.cs" />
+    <Compile Include="%28call\nilnul._call\Call_OpArgA%28TOp,TArg.cs" />
+    <Compile Include="%28call\nilnul._call\OpI.cs" />
+    <Compile Include="%28call\nilnul._call_\arg_\arg1_\ArgsSameType.cs" />
+    <Compile Include="%28call\nilnul._call_\ArgA%28TArg.cs" />
+    <Compile Include="%28call\nilnul._call_\arg_\Arg1A%28TArg,TArg1.cs" />
+    <Compile Include="%28call\nilnul._call_\op_\arg_\Arg1A%28TOp,TArg,TArg1.cs" />
+    <Compile Include="%28call\nilnul._call_\op_\ArgA%28TOp,TArg.cs" />
+    <Compile Include="%28call\nilnul._call_\OpA%28TOp.cs" />
+    <Compile Include="%28call\nilnul._call_\op_\arg_\arg1_\ArgsSameType.cs" />
+    <Compile Include="%28eq\eq_\Map.cs" />
+    <Compile Include="%28expr%29\%28interfaces%29.cs" />
+    <Compile Include="%28expr%29\%28retiring\%28interfaces%29.cs" />
+    <Compile Include="%28expr%29\expr_\SimpleI.cs" />
+    <Compile Include="%28expr%29\expr_\PlainI.cs" />
+    <Compile Include="%28expr%29\expr_\VarAsExpr.cs" />
+    <Compile Include="%28expr%29\IdentityI.cs" />
+    <Compile Include="%28expr%29\_expr_\BlankI.cs" />
+    <Compile Include="%28expr%29\_expr_\SubstituteI%28T.cs" />
+    <Compile Include="%28expr%29\_expr_\substitute_\SubstituteI%28T.cs" />
+    <Compile Include="%28expr%29\_expr_\%28substitute\SubstituteI%28T.cs" />
+    <Compile Include="%28expr%29\_expr_\VarsI.cs" />
+    <Compile Include="%28expr%29\_expr_\%28retiring\Vars.cs" />
+    <Compile Include="%28expr%29\_expr_\%28retiring\ReduceI%28T.cs" />
+    <Compile Include="%28func\FuncI.cs" />
+    <Compile Include="%28func\func\duo\be\Composable.cs" />
+    <Compile Include="%28func\func\TryX.cs" />
+    <Compile Include="%28func\_func\ExprAsMemberI%28TInExpr.cs" />
+    <Compile Include="%28func\_func\Func.cs" />
+    <Compile Include="%28func\_func\Input.cs" />
+    <Compile Include="%28func\_func_\Body.cs" />
+    <Compile Include="%28func\_func_\Pars.cs" />
+    <Compile Include="%28opt\Opt%28T.cs" />
+    <Compile Include="%28opt\opt\Eq.cs" />
+    <Compile Include="%28opt\_opt\None.cs" />
+    <Compile Include="%28opt\_opt\NoneI.cs" />
+    <Compile Include="%28opt\_opt\One.cs" />
+    <Compile Include="%28opt\_opt\OneI.cs" />
+    <Compile Include="%28opt\_opt\one\Eq.cs" />
+    <Compile Include="%28opt\_opt\ValI.cs" />
+    <Compile Include="%28op\%28retiring\nilnul._op\ClosedOpI%28T%29.cs" />
+    <Compile Include="%28op\%28retiring\nilnul._op\ClosedOpI.cs" />
+    <Compile Include="%28op\%28retiring\nilnul._op\Op.cs" />
+    <Compile Include="%28op\%28retiring\nilnul._op\Priority.cs" />
+    <Compile Include="%28op\%28retiring\nilnul\Op%28P,R.cs" />
+    <Compile Include="%28op\%28retiring\nilnul\OpI%28P,R.cs" />
+    <Compile Include="%28op\%28retiring\nilnul\OpI.cs" />
+    <Compile Include="%28op\%28retiring\nilnul\op\Closed%28T.cs" />
+    <Compile Include="%28op\%28retiring\nilnul\op\ClosedI%28T%29.cs" />
+    <Compile Include="%28op\%28retiring\nilnul\op\duo\Compo.cs" />
+    <Compile Include="%28op\_op\ResultI%28T.cs" />
+    <Compile Include="%28op\_op\result_\Explain.cs" />
+    <Compile Include="%28op\_op\result_\explain_\Explain.cs" />
+    <Compile Include="%28set%29\%28retiring\Set.cs" />
+    <Compile Include="%28set%29\set\be\Vow.cs" />
+    <Compile Include="%28set%29\set\be_\any\Vow.cs" />
+    <Compile Include="%28set%29\set\be_\any\vow\En.cs" />
+    <Compile Include="%28set%29\set\Eq.cs" />
+    <Compile Include="%28set%29\set\BeI.cs" />
+    <Compile Include="%28set%29\set\be_\Dwelt.cs" />
+    <Compile Include="%28set%29\set\EqI.cs" />
+    <Compile Include="%28set%29\set\op_\BinaryI.cs" />
+    <Compile Include="%28set%29\set\op_\binary_\Xor.cs" />
+    <Compile Include="%28set%29\set\op_\binary_\Except.cs" />
+    <Compile Include="%28set%29\set\op_\binary_\Intersect.cs" />
+    <Compile Include="%28set%29\set\op_\binary_\Union.cs" />
+    <Compile Include="%28set%29\set\VowI.cs" />
+    <Compile Include="%28set%29\set\vow\En.cs" />
+    <Compile Include="%28set%29\set_\Sed.cs" />
+    <Compile Include="%28singleton\Singletont%28T%29.cs" />
+    <Compile Include="%28singleton\singleton_\Lazy.cs" />
+    <Compile Include="%28stream%29\StreamI.cs" />
+    <Compile Include="%28stream%29\stream\Deluge.cs" />
+    <Compile Include="%28stream%29\stream_\seq_\DefaultAppended.cs" />
+    <Compile Include="%28stream%29\_stream_\BlankI.cs" />
+    <Compile Include="%28str\str\convert_\_ShuffleX.cs" />
+    <Compile Include="%28str\str\Cord.cs" />
+    <Compile Include="%28str\str_\EnumableI.cs" />
+    <Compile Include="%28str\str_\enumable\BeI.cs" />
+    <Compile Include="%28str\str_\enumable\be_\NoneX.cs" />
+    <Compile Include="%28str\str_\enumable_\started\Tail.cs" />
+    <Compile Include="%28var%29\var_\Handled.cs" />
+    <Compile Include="%28var%29\var_\handled\Eq.cs" />
+    <Compile Include="%28var%29\var_\handled_\OvObj%28T.cs" />
+    <Compile Include="%28var%29\var_\handled_\Typed.cs" />
+    <Compile Include="%28var%29\var_\handled_\typed_\OvObj%28T.cs" />
+    <Compile Include="%28var%29\var_\Typed.cs" />
+    <Compile Include="%28var%29\var_\typed_\OvObj%28T.cs" />
+    <Compile Include="%28var%29\var_\_handled\Handle.cs" />
+    <Compile Include="%28var%29\var_\_handled_\Handle.cs" />
+    <Compile Include="%28var%29\var_\_typed_\TypeI.cs" />
+    <Compile Include="%28var%29\（retiring）\VarI1.cs" />
+    <Compile Include="%28var%29\var\var\Eq.cs" />
+    <Compile Include="%28var%29\var\var\Le.cs" />
+    <Compile Include="%28var%29\var\var\Set.cs" />
+    <Compile Include="%28var%29\var\var\set\NamingContext.cs" />
+    <Compile Include="%28var%29\var\var\set\NamingContext_varI.cs" />
+    <Compile Include="%28var%29\var\var\set\NamingContext_varI1.cs" />
+    <Compile Include="%28var%29\var\var\set\_namingContext\UnderscorePrefixed.cs" />
+    <Compile Include="%28var%29\var\var\str\be\Distinct.cs" />
+    <Compile Include="%28var%29\var\var\str\Contains.cs" />
+    <Compile Include="%28var%29\var\var\str\NotContain.cs" />
+    <Compile Include="%28var%29\var\var\Tuple.cs" />
+    <Compile Include="%28var%29\var\var\tupl\Sans.cs" />
+    <Compile Include="%28var%29\var\var\tupl\Seed.cs" />
+    <Compile Include="%28var%29\var\var\tupl\_seed\Head.cs" />
+    <Compile Include="%28var%29\var\var\tupl\_seed\Seed.cs" />
+    <Compile Include="%28var%29\var\var\tupl\_seed\Tail.cs" />
+    <Compile Include="%28var%29\var\var\_set_\BlankI.cs" />
+    <Compile Include="%28var%29\VarI2.cs" />
+    <Compile Include="%28var%29\var\Eq.cs" />
+    <Compile Include="%28var%29\var\Set.cs" />
+    <Compile Include="%28var%29\vars\！retiring\NamingContext.cs" />
+    <Compile Include="%28var%29\var\SortieI.cs" />
+    <Compile Include="ArithI.cs" />
+    <Compile Include="ChoiceI.cs" />
+    <Compile Include="CollectionI.cs" />
+    <Compile Include="collection_\ChoiceI.cs" />
+    <Compile Include="collection_\choice_\Sed.cs" />
+    <Compile Include="collection_\choice_\Singleton.cs" />
+    <Compile Include="EnumX.cs" />
+    <Compile Include="EqA.cs" />
+    <Compile Include="EquationI.cs" />
+    <Compile Include="exception_\UnexpectedException.cs" />
+    <Compile Include="exception_\NoticeException.cs" />
+    <Compile Include="FormulaI.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="%28be%29\nilnul\be\Vow.cs" />
+    <Compile Include="%28be%29\nilnul\be\vow\En.cs" />
+    <Compile Include="Nilnul.cs" />
+    <Compile Include="nilnul0\DuoI.cs" />
+    <Compile Include="nilnul0\OpI.cs" />
+    <Compile Include="nilnul0\op_\binary\Closed.cs" />
+    <Compile Include="nilnul0\op_\unary_\Closed.cs" />
+    <Compile Include="nilnul0\seq\BeI1.cs" />
+    <Compile Include="nilnul0\seq\be_\_NoneX1.cs" />
+    <Compile Include="nilnul0\seq\ConvertI.cs" />
+    <Compile Include="nilnul0\seq_\headed\coerce_\Dehead.cs" />
+    <Compile Include="nilnul0\SortieIT.cs" />
+    <Compile Include="nilnul0\StrI%28T.cs" />
+    <Compile Include="nilnul0\str_\SeqI.cs" />
+    <Compile Include="nilnul0\str_\seq\BeI1.cs" />
+    <Compile Include="nilnul0\str_\seq\be_\Distinct.cs" />
+    <Compile Include="nilnul0\str_\seq\be_\distinct\Vow%28T,TEq.cs" />
+    <Compile Include="nilnul0\str_\seq\be_\distinct\vow\En.cs" />
+    <Compile Include="nilnul0\str_\seq\be_\distinct\_VowX.cs" />
+    <Compile Include="nilnul0\str_\seq\be_\NotContain.cs" />
+    <Compile Include="nilnul0\str_\seq\convert_\_AppendX.cs" />
+    <Compile Include="nilnul0\str_\seq\convert_\_PrependX.cs" />
+    <Compile Include="nilnul0\str_\seq_\Distinct%28T,TEq.cs" />
+    <Compile Include="nilnul0\str_\seq_\Distinct%28T.cs" />
+    <Compile Include="nilnul0\str_\seq_\started\CastI.cs" />
+    <Compile Include="nilnul0\str_\seq_\started\coerce_\_DeheadX.cs" />
+    <Compile Include="nilnul0\VowI%28T.cs" />
+    <Compile Include="%28retiring\NotNul.cs" />
+    <Compile Include="op\Memoize.cs" />
+    <Compile Include="op_\PlainI.cs" />
+    <Compile Include="op_\SimpleI.cs" />
+    <Compile Include="vow\vow\En.cs" />
+    <Compile Include="vow\vow\EnA.cs" />
+    <Compile Include="vow\vow\EnI.cs" />
+    <Compile Include="vow\vow\en\Eq.cs" />
+    <Compile Include="nilnul0\_rec_\Item1I.cs" />
+    <Compile Include="nilnul0\_rec_\ItemI.cs" />
+    <Compile Include="nilnul0\_set_\BlankI.cs" />
+    <Compile Include="nilnul0\_sortie_\AsStr.cs" />
+    <Compile Include="nilnul0\_sortie_\BlankI.cs" />
+    <Compile Include="nilnul0\_str_\BlankI.cs" />
+    <Compile Include="op_\UnaryI.cs" />
+    <Compile Include="op_\NaryI.cs" />
+    <Compile Include="op_\BinaryI.cs" />
+    <Compile Include="op_\binary_\ClosedI.cs" />
+    <Compile Include="SedI.cs" />
+    <Compile Include="VowI.cs" />
+    <Compile Include="vow\En.cs" />
+    <Compile Include="vow_\None%28T.cs" />
+    <Compile Include="vow_\None.cs" />
+    <Compile Include="vow_\True.cs" />
+    <Compile Include="vow_\_none\UnacceptableException.cs" />
+    <Compile Include="vow_\_TrueX.cs" />
+    <Compile Include="_nilnul\cfg\InDllOfDll.cs" />
+    <Compile Include="_nilnul\cfg\inDllOfDll_\Agnostic.cs" />
+    <Compile Include="_nilnul\cfg\inDllOfDll_\CodeBase.cs" />
+    <Compile Include="_nilnul\cfg\linq_\defaulted_\App.cs" />
+    <Compile Include="_nilnul\cfg\ov_\dll_\ByDenote.cs" />
+    <Compile Include="_nilnul\cfg_\_Cached.cs" />
+    <Compile Include="_nilnul\cfg_\_WebX.cs" />
+    <Compile Include="_nilnul\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="_nilnul\Undefined.cs" />
+    <Compile Include="_nilnul\Nonobj.cs" />
+    <Compile Include="_nilnul\Nulable.cs" />
+    <Compile Include="nulable\EqA.cs" />
+    <Compile Include="seq\BeI.cs" />
+    <Compile Include="seq\be_\NoneX.cs" />
+    <Compile Include="aver\Asserted.cs" />
+    <Compile Include="%28attr_\PartialImplementation.cs" />
+    <Compile Include="%28attr_\PossibleException.cs" />
+    <Compile Include="aver\Assert.cs" />
+    <Compile Include="aver\AssertA.cs" />
+    <Compile Include="aver\assert\Asserted.cs" />
+    <Compile Include="aver\_AvowX.cs" />
+    <Compile Include="aver\_avow\FailException.cs" />
+    <Compile Include="%28be%29\nilnul\BeI.cs" />
+    <Compile Include="%28be%29\nilnul\be\anti_\FroStatic.cs" />
+    <Compile Include="%28be%29\nilnul\be\Avow_froFunc.cs" />
+    <Compile Include="%28be%29\nilnul\be\Assert.cs" />
+    <Compile Include="%28be%29\nilnul\be\En_froFunc.cs" />
+    <Compile Include="%28be%29\nilnul\be\Asserted_assertDiscarded.cs" />
+    <Compile Include="%28be%29\nilnul\be\Asserted.cs" />
+    <Compile Include="%28be%29\nilnul\be_\FroFunc.cs" />
+    <Compile Include="%28be%29\nilnul\be\Antonym.cs" />
+    <Compile Include="%28box\Box1%28TOriginal%29.cs" />
+    <Compile Include="%28call\Call.cs" />
+    <Compile Include="%28call\_call\ArgArg1A%28TArg,TArg1.cs" />
+    <Compile Include="%28call\_call\ArgA%28TArg.cs" />
+    <Compile Include="%28call\_call\argArg1_\ArgArg1A%28TArg,TArg1.cs" />
+    <Compile Include="%28call\_call\EvalI.cs" />
+    <Compile Include="%28call\_call\OpA%28TOp.cs" />
+    <Compile Include="%28call\_call\Call%28TOp,TArg.cs" />
+    <Compile Include="%28call\_call\OpArgA%28TOp,TArg.cs" />
+    <Compile Include="%28character%29\nilnul.character\set\Alphabet.cs" />
+    <Compile Include="%28character%29\nilnul.character\set\be\Alphabet.cs" />
+    <Compile Include="%28character%29\nilnul.character\sorted_\alphabet_\Digit.cs" />
+    <Compile Include="%28character%29\nilnul.character\sort\alphabet\eg\Digit_headedByOne.cs" />
+    <Compile Include="%28character%29\nilnul.character\sort\be\Alphabet.cs" />
+    <Compile Include="%28character%29\nilnul.character\sort\alphabet\eg\Digit.cs" />
+    <Compile Include="%28character%29\nilnul.character\Sort.cs" />
+    <Compile Include="%28character%29\nilnul.character\Toset.cs" />
+    <Compile Include="%28character%29\nilnul.character\toset\be\Alphabet.cs" />
+    <Compile Include="%28character%29\nilnul.txt\Stream.cs" />
+    <Compile Include="%28character%29\nilnul.txt\stream\eg\Digits.cs" />
+    <Compile Include="%28character%29\nilnul.txt\stream\Omega1.cs" />
+    <Compile Include="%28character%29\nilnul.txt\stream\Omega.cs" />
+    <Compile Include="%28character%29\nilnul.txt\stream\eg\VarName.cs" />
+    <Compile Include="%28character%29\nilnul.txt\str\VarName_LedByPqrst.cs" />
+    <Compile Include="%28character%29\nilnul.txt\str\VarName.cs" />
+    <Compile Include="%28character%29\nilnul\Name.cs" />
+    <Compile Include="%28character%29\nilnul.character\be\NameTail.cs" />
+    <Compile Include="%28character%29\nilnul.character\be\NameHead.cs" />
+    <Compile Include="%28character%29\nilnul.character\Set.cs" />
+    <Compile Include="%28character%29\nilnul.character\set\eg\Kanji.cs" />
+    <Compile Include="%28character%29\nilnul.txt\be\Name.cs" />
+    <Compile Include="%28character%29\nilnul.txt\be\Nonempty.cs" />
+    <Compile Include="%28duo\Re.cs" />
+    <Compile Include="%28duo\duo\be\EndWith.cs" />
+    <Compile Include="%28duo\duo\be\StartWith.cs" />
+    <Compile Include="%28eq\Eq.cs" />
+    <Compile Include="%28eq\eq\EqContext.cs" />
+    <Compile Include="%28eq\eq\Singleton.cs" />
+    <Compile Include="%28op\_op\EvalI%28P,R.cs" />
+    <Compile Include="%28op\_op\Op.cs" />
+    <Compile Include="%28set%29\set\%28eq\Eq.cs" />
+    <Compile Include="%28set%29\set\re\Disjoint.cs" />
+    <Compile Include="%28set%29\set\re\Joint%281%29.cs" />
+    <Compile Include="%28set%29\set\re\Subset.cs" />
+    <Compile Include="%28set%29\set\str\be\Disjoint.cs" />
+    <Compile Include="%28stream%29\slider\op_\Cast.cs" />
+    <Compile Include="%28stream%29\slider_\FroFunc.cs" />
+    <Compile Include="%28stream%29\slider\Stream_skipHead.cs" />
+    <Compile Include="%28stream%29\slider\Stream.cs" />
+    <Compile Include="%28stream%29\slider_\Natural_froBigInt.cs" />
+    <Compile Include="%28stream%29\stream\box\Enumerable.cs" />
+    <Compile Include="%28stream%29\stream\Cyclic1.cs" />
+    <Compile Include="%28stream%29\stream\Cyclic.cs" />
+    <Compile Include="%28stream%29\stream\Sentinel.cs" />
+    <Compile Include="%28stream%29\stream\Slider.cs" />
+    <Compile Include="%28stream%29\stream_\StrAsStream.cs" />
+    <Compile Include="%28stream%29\stream\to\Enumerable.cs" />
+    <Compile Include="%28stream%29\_slider_\Current%28T.cs" />
+    <Compile Include="%28stream%29\_slider_\MoveNext.cs" />
+    <Compile Include="%28stream%29\_stream_\Current%28T.cs" />
+    <Compile Include="%28stream%29\_slider_\Slider.cs" />
+    <Compile Include="%28stream%29\_stream_\Inited.cs" />
+    <Compile Include="%28stream%29\_stream_\MoveNext.cs" />
+    <Compile Include="%28stream%29\_stream_\NextI%28T.cs" />
+    <Compile Include="%28stream%29\_stream_\%28oldNamespace\NextI%28T.cs" />
+    <Compile Include="%28stream%29\_stream_\Reset.cs" />
+    <Compile Include="%28str\be\NoneX.cs" />
+    <Compile Include="%28str\Str.cs" />
+    <Compile Include="%28str\str\duo\be\SameLength.cs" />
+    <Compile Include="%28str\str\to_\txt\X.cs" />
+    <Compile Include="%28str\str\to_\Enumerable.cs" />
+    <Compile Include="%28str\str_\%28retiring\SansI.cs" />
+    <Compile Include="%28str\str_\%28retiring\Seeded.cs" />
+    <Compile Include="%28str\str_\%28sans\Empty.cs" />
+    <Compile Include="%28str\str\rel\Disjoint.cs" />
+    <Compile Include="%28str\str\rel\Joint%281%29.cs" />
+    <Compile Include="%28str\str_\SansI.cs" />
+    <Compile Include="%28str\str_\%28sans\EmptyI.cs" />
+    <Compile Include="%28str\str_\Started.cs" />
+    <Compile Include="%28str\str_\started\X.cs" />
+    <Compile Include="%28str\str_\started\Tail.cs" />
+    <Compile Include="%28str\str\to_\to\Enumerable.cs" />
+    <Compile Include="%28str\str\X.cs" />
+    <Compile Include="%28str\str_\_started_\HeadI.cs" />
+    <Compile Include="%28str\str_\_started_\%28retiring\SeedI.cs" />
+    <Compile Include="%28str\str_\_started_\%28retiring\TailI%29.cs" />
+    <Compile Include="%28str\str_\_started_\TailI.cs" />
+    <Compile Include="%28tuple%29\Trio.cs" />
+    <Compile Include="%28tuple%29\duo\Eq.cs" />
+    <Compile Include="%28tuple%29\trio\OpI.cs" />
+    <Compile Include="%28tuple%29\TuplI.cs" />
+    <Compile Include="%28tuple%29\tupl\AsEnum.cs" />
+    <Compile Include="%28tuple%29\tupl\%28Interface1.cs" />
+    <Compile Include="%28tuple%29\tupl\Seeded.cs" />
+    <Compile Include="%28tuple%29\tupl\Sans.cs" />
+    <Compile Include="%28tuple%29\tupl\_seed\Head.cs" />
+    <Compile Include="%28tuple%29\tupl\_seeded\Tail.cs" />
+    <Compile Include="%28tuple%29\tupl\_seeded\Seed.cs" />
+    <Compile Include="%28tuple%29\tupl\_seed\SeedA.cs" />
+    <Compile Include="%28tuple%29\tupl\_seed\Tail.cs" />
+    <Compile Include="%28tuple%29\_tupl\Head.cs" />
+    <Compile Include="%28_typeSwitch\TypeSwitchAction.cs" />
+    <Compile Include="%28_typeSwitch\TypeSwitch.cs" />
+    <Compile Include="ActionX.cs" />
+    <Compile Include="algebra\pargoid\be\Magma.cs" />
+    <Compile Include="algebra\Pargoid.cs" />
+    <Compile Include="algebra\pargoid\magma\rel\Super.cs" />
+    <Compile Include="algebra\pargoid\op\Closure.cs" />
+    <Compile Include="AlgorithmException.cs" />
+    <Compile Include="aver\_avow_\AvowI.cs" />
+    <Compile Include="%28tuple%29\Duo.cs" />
+    <Compile Include="bit\X.cs" />
+    <Compile Include="byt\str\Eq.cs" />
+    <Compile Include="byt\str\ToTxt.cs" />
+    <Compile Include="byt\X.cs" />
+    <Compile Include="Cfg.cs" />
+    <Compile Include="_nilnul\be_\Nulable.cs" />
+    <Compile Include="_nilnul\be_\nulable_\ByDefaultEq.cs" />
+    <Compile Include="_nilnul\cfg\Linq.cs" />
+    <Compile Include="_nilnul\cfg\linq_\Default.cs" />
+    <Compile Include="_nilnul\cfg\ov_\Calling.cs" />
+    <Compile Include="_nilnul\cfg\ov_\Dll.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ConstI%28T%29 %283%29.cs" />
+    <Compile Include="DisposableX.cs" />
+    <Compile Include="enumerable\AsEnumerableA.cs" />
+    <Compile Include="enumerable\b\Distinct.cs" />
+    <Compile Include="enumerable\distinct\Union.cs" />
+    <Compile Include="%28attr_\MayPerpetualAttribute.cs" />
+    <Compile Include="aver\%28retiring%29\Asserted.cs" />
+    <Compile Include="%28be%29\nilnul\%28retiring\BeI2.cs" />
+    <Compile Include="%28box\%28retiring\Box%28TOriginal%29.cs" />
+    <Compile Include="Collection.cs" />
+    <Compile Include="%28str\CollectionTostrX.cs" />
+    <Compile Include="collection\set\Ordered.cs" />
+    <Compile Include="ConstI.cs" />
+    <Compile Include="ConstraintedType.cs" />
+    <Compile Include="enumerable\b\Positive%28TElement.cs" />
+    <Compile Include="exception_\ParseException.cs" />
+    <Compile Include="integer\Eq.cs" />
+    <Compile Include="%28str\str\aggregate_\Product.cs" />
+    <Compile Include="%28opt\Optional%28T.cs" />
+    <Compile Include="%28opt\optional_\NoneI.cs" />
+    <Compile Include="%28opt\optional_\One.cs" />
+    <Compile Include="%28opt\optional_\None.cs" />
+    <Compile Include="NotifyPropertyChange.cs" />
+    <Compile Include="seq\ToTxt.cs" />
+    <Compile Include="FiniteI.cs" />
+    <Compile Include="InfiniteI.cs" />
+    <Compile Include="aver\%28retiring%29\Assert.cs" />
+    <Compile Include="name\Eq.cs" />
+    <Compile Include="name\str\be\Distinct.cs" />
+    <Compile Include="name\str\NotContain.cs" />
+    <Compile Include="ord\Le.cs" />
+    <Compile Include="rel\dag\TransitiveClosureX.cs" />
+    <Compile Include="rel\Matrix.cs" />
+    <Compile Include="rel\Rel.cs" />
+    <Compile Include="seq\EnumerableA.cs" />
+    <Compile Include="seq\Head.cs" />
+    <Compile Include="%28set%29\Set.cs" />
+    <Compile Include="NotNullX.cs" />
+    <Compile Include="NotNull2.cs" />
+    <Compile Include="%28retiring\NotNull.cs" />
+    <Compile Include="RefNotNullStruct.cs" />
+    <Compile Include="%28retiring\SingletonByDefaultNew%28T%29.cs" />
+    <Compile Include="%28str\str\EachXForIEnumerableT.cs" />
+    <Compile Include="%28obj\Element.cs" />
+    <Compile Include="%28obj\ElementI.cs" />
+    <Compile Include="%28eq\%28retiring\Equal.cs" />
+    <Compile Include="%28eq\EqX.cs" />
+    <Compile Include="%28expr%29\%28retiring\ExprI%28T%29.cs" />
+    <Compile Include="%28expr%29\%28retiring\ExprI.cs" />
+    <Compile Include="Extended%28T%29.cs" />
+    <Compile Include="FuncAsEqualityComparer.cs" />
+    <Compile Include="FuncAsEqualityComparer2.cs" />
+    <Compile Include="HtmlSafe.cs" />
+    <Compile Include="Interface_.cs" />
+    <Compile Include="Literal%28T%29.cs" />
+    <Compile Include="LiteralExprI%28T%29.cs" />
+    <Compile Include="LiteralExprI.cs" />
+    <Compile Include="LiteralI%28T%29.cs" />
+    <Compile Include="LiteralI.cs" />
+    <Compile Include="LiteralI2_T_.cs" />
+    <Compile Include="NullaryTuple%28T.cs" />
+    <Compile Include="ObjectTostrX.cs" />
+    <Compile Include="%28singleton\%28retiring\Singleton.cs" />
+    <Compile Include="%28retiring\SingletonByDefault%28T%29.cs" />
+    <Compile Include="SingltonOfMember%28T.cs" />
+    <Compile Include="%28character%29\StrX.cs" />
+    <Compile Include="%28str\str\be\Distinct.cs" />
+    <Compile Include="%28str\str\Contains.cs" />
+    <Compile Include="%28str\str\NotContain.cs" />
+    <Compile Include="%28str\str\to_\txt\ToTxt.cs" />
+    <Compile Include="%28extension\StringBuilder.cs" />
+    <Compile Include="SwapX.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefI%28T.cs" />
+    <Compile Include="enumerable\%28retiring\TostrX.cs" />
+    <Compile Include="enumerable\%28retiring\ToStrX2.cs" />
+    <Compile Include="%28character%29\txt\TxtWriterAsLog.cs" />
+    <Compile Include="%28character%29\txt\Unicode.cs" />
+    <Compile Include="%28character%29\txt\Writer.cs" />
+    <Compile Include="%28Typ\Type.cs" />
+    <Compile Include="%28Typ\type\ConstraintedType.cs" />
+    <Compile Include="%28Typ\type\Element.cs" />
+    <Compile Include="%28Typ\type\Interface_.cs" />
+    <Compile Include="%28Typ\type\Singleton.cs" />
+    <Compile Include="%28Typ\type\SingletonByDefault%28T%29.cs" />
+    <Compile Include="%28Typ\type\SingltonOfMember%28T.cs" />
+    <Compile Include="%28Typ\type\StaticCreate.cs" />
+    <Compile Include="%28Typ\type\Type.cs" />
+    <Compile Include="%28Typ\type\UnexpectedTypeException.cs" />
+    <Compile Include="%28Typ\type\UnknownTypeException.cs" />
+    <Compile Include="%28Typ\type\ValidationResultI.cs" />
+    <Compile Include="ToI.cs" />
+    <Compile Include="Txt.cs" />
+    <Compile Include="Txt2Enum.cs" />
+    <Compile Include="_nilnul\_cfg_\Section.cs" />
+    <Compile Include="_nilnul\_cfg_\Setting.cs" />
+    <Compile Include="_nilnul\_cfg_\setting\Debug.cs" />
+    <Compile Include="_nilnul\_cfg_\setting\on_\Dll.cs" />
+    <Compile Include="_nilnul\_cfg_\setting\on_\dll_\Vw.cs" />
+    <Compile Include="_nilnul\_cfg_\setting\on_\dll_\vw_\BySettingCfg.cs" />
+    <Compile Include="_nilnul\_cfg_\_setting_\Store_.cs" />
+    <Compile Include="_generic\Border.cs" />
+    <Compile Include="UnexpectedReachException.cs" />
+    <Compile Include="UnexpectedTypeException.cs" />
+    <Compile Include="UnknownTypeException.cs" />
+    <Compile Include="ValI%28T%29.cs" />
+    <Compile Include="ValidationResultI.cs" />
+    <Compile Include="%28var%29\（retiring）\Var%28T%29.cs" />
+    <Compile Include="%28var%29\（retiring）\VarExprI%28T%29.cs" />
+    <Compile Include="%28var%29\（retiring）\VarExprI.cs" />
+    <Compile Include="%28var%29\（retiring）\VarI%28T%29.cs" />
+    <Compile Include="%28var%29\（retiring）\VarI.cs" />
+    <Compile Include="%28var%29\vars\！retiring\Naming.cs" />
+    <Compile Include="X.cs" />
+    <Compile Include="_generic\str\Eq.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="%28attr%29\" />
+    <Folder Include="%28call\call_\binary_\" />
+    <Folder Include="%28call\call_\_binary_\" />
+    <Folder Include="%28call\call_\_unary_\" />
+    <Folder Include="%28character%29\nilnul.character\stream\" />
+    <Folder Include="%28character%29\nilnul.character\toset\alphabet\eg\" />
+    <Folder Include="%28character%29\unichar\" />
+    <Folder Include="%28expr%29\expr_\call_\" />
+    <Folder Include="%28expr%29\_expr_\vars\" />
+    <Folder Include="%28set%29\set\NewFolder1\" />
+    <Folder Include="%28stream%29\slider\_stream\" />
+    <Folder Include="%28stream%29\_stream\" />
+    <Folder Include="%28str\str\all\" />
+    <Folder Include="%28str\str\str\" />
+    <Folder Include="%28str\str_\seed\" />
+    <Folder Include="%28str\str_\started\extension\" />
+    <Folder Include="%28str\str_\started\to\" />
+    <Folder Include="%28str\str_\started_\" />
+    <Folder Include="%28tuple%29\trio\op\" />
+    <Folder Include="%28var%29\var\eq_\" />
+    <Folder Include="%28var%29\var\set\" />
+    <Folder Include="%28var%29\var\var\set\naming\" />
+    <Folder Include="%28var%29\var\_naming\" />
+    <Folder Include="aver\NewFolder1\" />
+    <Folder Include="cfg\" />
+    <Folder Include="nilnul0\op_\nary\" />
+    <Folder Include="nilnul0\op_\ternary\" />
+    <Folder Include="nilnul0\seq\convert_\" />
+    <Folder Include="nilnul0\str_\seq_\started\cast_\" />
+    <Folder Include="num\" />
+    <Folder Include="op_\nary_\" />
+    <Folder Include="op_\_binary_\" />
+    <Folder Include="seq_\enumerable\" />
+    <Folder Include="vow\en\" />
+    <Folder Include="_generic\str\eq\" />
+    <Folder Include="_nilnul\cfg\on_\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\_LINQ_%28Git\_nilnul_._LINQ_.csproj">
+      <Project>{442cbe25-6f12-44a1-8958-90e14f80f2d4}</Project>
+      <Name>_nilnul_._LINQ_</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="PostBuildMacros">
+    <GetAssemblyIdentity AssemblyFiles="$(TargetPath)">
+      <Output TaskParameter="Assemblies" ItemName="Targets" />
+    </GetAssemblyIdentity>
+    <ItemGroup>
+      <VersionNumber Include="@(Targets->'%(Version)')" />
+      <MajorMinor Include="$([System.Text.RegularExpressions.Regex]::Replace(&quot;%(Targets.Version)&quot;, &quot;^([^\.]+)\.([^\.]+)(.*)$&quot;, &quot;$1.$2&quot;))" />
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <nilnulTime>$([System.DateTime]::UtcNow.ToString("yyMMddHHmmss"))</nilnulTime>
+    <nilnulPattern4date>^.{6}</nilnulPattern4date>
+    <nilnulDate>$([System.Text.RegularExpressions.Regex]::Match($(nilnulTime), $(nilnulPattern4date)))</nilnulDate>
+    <nilnulPattern4clock>.{6}$</nilnulPattern4clock>
+    <nilnulClock>$([System.Text.RegularExpressions.Regex]::Match($(nilnulTime), $(nilnulPattern4clock)))</nilnulClock>
+    <nilnulClockCollapsed>$(nilnulClock.TrimStart('0'))</nilnulClockCollapsed>
+    <_nilnulClockPrefixed>.$(nilnulClockCollapsed)</_nilnulClockPrefixed>
+    <nilnulClockPrefixed>$(_nilnulClockPrefixed.TrimEnd('.'))</nilnulClockPrefixed>
+    <nilnulPatchRevision>$(nilnulDate)$(nilnulClockPrefixed)</nilnulPatchRevision>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEventDependsOn>
+	$(PostBuildEventDependsOn);
+	PostBuildMacros;
+</PostBuildEventDependsOn>
+    <PostBuildEvent>echo ConfigurationName is $(ConfigurationName)
+if $(ConfigurationName) == Release (
+	"NuGet.exe" pack "$(ProjectPath)" -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
+	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source local
+	"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source my
+) ELSE (
+	if  $(ConfigurationName)==Symbol (
+		"NuGet.exe" pack "$(ProjectPath)" -Symbols -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source local
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).symbols.nupkg -SkipDuplicate -Source my
+	)
+	if  $(ConfigurationName)==Nuget (
+		"NuGet.exe" pack "$(ProjectPath)"  -Prop Configuration=$(ConfigurationName) -Exclude **/*.tt -Version @(MajorMinor).$(nilnulPatchRevision)
+		"NuGet.exe" push $(TargetName).@(MajorMinor).$(nilnulPatchRevision).nupkg -SkipDuplicate -Source nuget.org
+	)
+)</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>rem nuget update "$(ProjectPath)"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="nilnul.op.UnaOpCall&lt;A, P, R&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpCall(A,P,R).cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="nilnul.op.UnaOpCall&lt;P, R&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpCall(P,R).cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="nilnul.op.UnaOpCallA&lt;TArg, TOp&gt;" Collapsed="true">
+    <Position X="12.25" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpCallA(A,Op).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nilnul.op.UnaOpCallVal&lt;A, R&gt;" Collapsed="true">
+    <Position X="14.75" Y="9" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpCallVal(P,R).cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="nilnul.op.UnaOpConst&lt;P, R, A&gt;" Collapsed="true">
+    <Position X="9.25" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpConst(P,R,A).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="nilnul.op.UnaOpExpr&lt;P, R, A&gt;" Collapsed="true">
+    <Position X="12" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpExpr(P,R,A).cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="nilnul.op.ClosedUnaOpConstI&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\ClosedUnaOpConstI(T).cs</FileName>
+      <NewMemberFileName>_expr\ClosedUnaOpExprI(T).cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpCallI_A&lt;A&gt;" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpCallI_A.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpCallI&lt;A, Op&gt;" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpCallI_A_Op(A,Op).cs</FileName>
+      <NewMemberFileName>_expr\UnaOpCallI_A_Op(A,Op).cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpCallI" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpCallI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpConstI&lt;P, R, A&gt;" Collapsed="true">
+    <Position X="7.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpConstI(R,P,A).cs</FileName>
+      <NewMemberFileName>_expr\UnaOpExprI(R,P,A).cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpCallI_Op&lt;Op&gt;" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpCallI(Op).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpExprI&lt;P, R, A&gt;" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpExprI(R,P,A).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.ClosedUnaOpExprI&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\ClosedUnaOpExprI(T).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpExprI&lt;R&gt;" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpExprI(R).cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="nilnul.op.UnaOpExprI_P&lt;P&gt;" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>unary\_expr\UnaOpExprI_P.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
